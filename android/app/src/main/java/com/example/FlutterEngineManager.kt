@@ -34,5 +34,4 @@ object FlutterEngineManager {
         cache.get(id)?.destroy()
         cache.remove(id)
     }
-
 }
