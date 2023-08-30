@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.myapplication'
+    namespace 'com.example'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.myapplication"
+        applicationId "com.example"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -34,19 +34,6 @@ android {
 
 
     flavorDimensions "version"
-    productFlavors {
-        local {
-            applicationId "fr.example.local"
-        }
-
-        staging {
-            applicationId "fr.example.staging"
-        }
-
-        production {
-            applicationId "fr.example.production"
-        }
-    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

@@ -3,7 +3,7 @@ package com.example
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.databinding.ActivityMainBinding
+import com.example.databinding.ActivityMainBinding
 import io.flutter.embedding.android.FlutterFragment
 import io.flutter.embedding.android.RenderMode
 import java.util.concurrent.atomic.AtomicInteger
